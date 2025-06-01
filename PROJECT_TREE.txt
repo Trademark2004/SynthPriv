@@ -1,0 +1,20 @@
+synthpriv/
+    __init__.py
+    trainer.py
+    eval.py
+    epsilon_allocator.py
+    cli.py
+    catalog.py
+tests/
+    test_trainer.py
+app.py
+pyproject.toml
+Dockerfile.cpu
+Dockerfile.gpu
+USAGE.md
+.github/
+    workflows/
+        ci.yml
+.pre-commit-config.yaml
+.env.example
+reports/  # generated at runtime
