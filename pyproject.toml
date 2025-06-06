@@ -12,7 +12,7 @@ license = "MIT"
 
 [tool.poetry.dependencies]
 # Python version required for this project
-python = ">=3.13,<4.0"
+python = ">=3.11,<4.0"  # Allow both 3.11 and 3.13 for CI and local use
 # Core dependencies
 pandas = "^2.0.0"  # Data manipulation and analysis
 ctgan = "^0.7.1"  # (Not compatible with 3.13, left for reference)
